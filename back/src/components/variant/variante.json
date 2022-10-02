@@ -23,6 +23,12 @@
       "type": "integer",
       "required": true,
       "min": 0
+    },
+    "Taille": {
+      "type": "string"
+    },
+    "Couleur": {
+      "type": "string"
     }
   }
 }

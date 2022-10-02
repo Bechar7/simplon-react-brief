@@ -45,6 +45,24 @@
       "repeatable": true,
       "component": "variant.variante",
       "required": true
+    },
+    "Type": {
+      "type": "enumeration",
+      "enum": [
+        "T-Shirts classiques",
+        "Accessoires",
+        "Portefeuille"
+      ],
+      "required": true
+    },
+    "Nouveaute": {
+      "type": "boolean",
+      "default": false
+    },
+    "Marque": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::brand.brand"
     }
   }
 }

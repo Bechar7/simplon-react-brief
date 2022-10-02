@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_product_produits",
+  "info": {
+    "displayName": "Produit",
+    "icon": "apple-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "produit": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::product.product"
+    },
+    "Quantite": {
+      "type": "integer",
+      "required": true,
+      "min": 1,
+      "default": 1
+    },
+    "Couleur": {
+      "type": "string"
+    },
+    "Taille": {
+      "type": "string"
+    }
+  }
+}
