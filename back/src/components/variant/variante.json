@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_variant_variantes",
+  "info": {
+    "displayName": "Variante",
+    "icon": "certificate",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Nom": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text",
+      "required": true
+    },
+    "Surcout": {
+      "type": "decimal",
+      "min": 0
+    },
+    "Stock": {
+      "type": "integer",
+      "required": true,
+      "min": 0
+    }
+  }
+}
