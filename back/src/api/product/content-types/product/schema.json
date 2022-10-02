@@ -63,6 +63,13 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::brand.brand"
+    },
+    "Genre": {
+      "type": "enumeration",
+      "enum": [
+        "Femme",
+        "Homme"
+      ]
     }
   }
 }

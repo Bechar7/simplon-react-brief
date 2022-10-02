@@ -23,6 +23,15 @@
       "repeatable": true,
       "component": "product.produit",
       "required": true
+    },
+    "Statut": {
+      "type": "enumeration",
+      "enum": [
+        "Commandée",
+        "Validée",
+        "En livraison",
+        "Livrée"
+      ]
     }
   }
 }
