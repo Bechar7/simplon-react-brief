@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Accueil",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Landpage": {
+      "displayName": "Landpage",
+      "type": "component",
+      "repeatable": false,
+      "component": "home.landpage"
+    },
+    "Categories": {
+      "displayName": "Categories",
+      "type": "component",
+      "repeatable": true,
+      "component": "home.categories"
+    },
+    "Commentaire": {
+      "displayName": "Commentaire",
+      "type": "component",
+      "repeatable": false,
+      "component": "home.commentaire"
+    }
+  }
+}

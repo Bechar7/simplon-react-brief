@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_home_categories",
+  "info": {
+    "displayName": "Categories",
+    "icon": "list-alt"
+  },
+  "options": {},
+  "attributes": {
+    "Nom": {
+      "type": "string",
+      "unique": true
+    },
+    "Lien": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

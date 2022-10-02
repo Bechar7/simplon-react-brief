@@ -70,6 +70,15 @@
         "Femme",
         "Homme"
       ]
+    },
+    "StripeID": {
+      "type": "string",
+      "unique": true,
+      "regex": "^prod_[a-zA-Z0-9]+$"
+    },
+    "Favori": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

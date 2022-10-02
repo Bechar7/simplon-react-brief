@@ -29,6 +29,11 @@
     },
     "Couleur": {
       "type": "string"
+    },
+    "StripeID": {
+      "type": "string",
+      "regex": "^price_[a-zA-Z0-9]+$",
+      "unique": true
     }
   }
 }

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_home_commentaires",
+  "info": {
+    "displayName": "Commentaire",
+    "icon": "comment-alt"
+  },
+  "options": {},
+  "attributes": {
+    "Titre": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Lien": {
+      "type": "string",
+      "required": true
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_home_landpages",
+  "info": {
+    "displayName": "Landpage",
+    "icon": "home"
+  },
+  "options": {},
+  "attributes": {
+    "Titre": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Lien": {
+      "type": "string"
+    },
+    "Images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
