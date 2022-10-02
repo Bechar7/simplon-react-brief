@@ -34,3 +34,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# sanity
+/back/logs
+*.log
+/back/coverage
+/back/node_modules
+/back/dist
