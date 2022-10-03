@@ -38,7 +38,7 @@ const products = [
   // More products...
 ]
 
-export default function Category() {
+export default function ProductList() {
   return (
     <div className="bg-white">
       <Head>
